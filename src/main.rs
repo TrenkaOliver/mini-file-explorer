@@ -1,6 +1,6 @@
 mod folder;
 
-use std::{io, path::Path, rc::Rc};
+use std::{io, path::Path, sync::{atomic::AtomicUsize, Arc}};
 
 use folder::Folder;
 
@@ -9,10 +9,13 @@ fn main() -> Result<(), io::Error>{
     println!("Enter the path");
     let mut path = String::new();
     io::stdin().read_line(&mut path).expect("error reading input");
-    let root = Folder::from(Path::new(path.trim()).canonicalize().unwrap().as_path())?;
+    let root = Folder::from(
+        Path::new(path.trim()).canonicalize().unwrap().as_path(),
+        Arc::new(AtomicUsize::new(4))
+    )?;
 
     root.summarize();
-    let mut previous_folder = Rc::clone(&root);
+    let mut previous_folder = root.clone();
 
     loop {
         println!();
