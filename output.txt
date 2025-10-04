@@ -1,0 +1,265 @@
+path: root/target/debug
+
+debug
+├──.cargo-lock
+├──.fingerprint
+│  ├──mini-file-explorer-1d93afc275e35461
+│  │  ├──dep-test-bin-mini-file-explorer
+│  │  ├──invoked.timestamp
+│  │  ├──test-bin-mini-file-explorer
+│  │  └──test-bin-mini-file-explorer.json
+│  ├──mini-file-explorer-1e367a1035e90ef7
+│  │  ├──bin-mini-file-explorer
+│  │  ├──bin-mini-file-explorer.json
+│  │  ├──dep-bin-mini-file-explorer
+│  │  └──invoked.timestamp
+│  └──mini-file-explorer-75d7458c1fb3d4e6
+│     ├──bin-mini-file-explorer
+│     ├──bin-mini-file-explorer.json
+│     ├──dep-bin-mini-file-explorer
+│     └──invoked.timestamp
+├──build
+├──deps
+│  ├──libmini_file_explorer-1d93afc275e35461.rmeta
+│  ├──libmini_file_explorer-75d7458c1fb3d4e6.rmeta
+│  ├──mini_file_explorer-1d93afc275e35461.d
+│  ├──mini_file_explorer-75d7458c1fb3d4e6.d
+│  ├──mini_file_explorer.2j2yyqagvmvjiuzlu2dl53uxa.01o479k.rcgu.o
+│  ├──mini_file_explorer.2j2yyqagvmvjiuzlu2dl53uxa.0ccus1i.rcgu.o
+│  ├──mini_file_explorer.2j2yyqagvmvjiuzlu2dl53uxa.113zryc.rcgu.o
+│  ├──mini_file_explorer.2j2yyqagvmvjiuzlu2dl53uxa.1n4t0pt.rcgu.o
+│  ├──mini_file_explorer.4z0iwguqb63h6idvudvo0w1cl.01o479k.rcgu.o
+│  ├──mini_file_explorer.4z0iwguqb63h6idvudvo0w1cl.0ccus1i.rcgu.o
+│  ├──mini_file_explorer.4z0iwguqb63h6idvudvo0w1cl.113zryc.rcgu.o
+│  ├──mini_file_explorer.4z0iwguqb63h6idvudvo0w1cl.1n4t0pt.rcgu.o
+│  ├──mini_file_explorer.5p4el2bbd08dq920er7lqd3nc.01o479k.rcgu.o
+│  ├──mini_file_explorer.5p4el2bbd08dq920er7lqd3nc.0ccus1i.rcgu.o
+│  ├──mini_file_explorer.5p4el2bbd08dq920er7lqd3nc.113zryc.rcgu.o
+│  ├──mini_file_explorer.5p4el2bbd08dq920er7lqd3nc.1n4t0pt.rcgu.o
+│  ├──mini_file_explorer.5w3g0mrq7y264kz6y5ucgsc3k.01o479k.rcgu.o
+│  ├──mini_file_explorer.5w3g0mrq7y264kz6y5ucgsc3k.0ccus1i.rcgu.o
+│  ├──mini_file_explorer.5w3g0mrq7y264kz6y5ucgsc3k.113zryc.rcgu.o
+│  ├──mini_file_explorer.5w3g0mrq7y264kz6y5ucgsc3k.1n4t0pt.rcgu.o
+│  ├──mini_file_explorer.64fe5ntdr9v1vgyff46mks3a4.01o479k.rcgu.o
+│  ├──mini_file_explorer.64fe5ntdr9v1vgyff46mks3a4.0ccus1i.rcgu.o
+│  ├──mini_file_explorer.64fe5ntdr9v1vgyff46mks3a4.113zryc.rcgu.o
+│  ├──mini_file_explorer.64fe5ntdr9v1vgyff46mks3a4.1n4t0pt.rcgu.o
+│  ├──mini_file_explorer.72v945r35owslntm0u4cptxxb.01o479k.rcgu.o
+│  ├──mini_file_explorer.72v945r35owslntm0u4cptxxb.0ccus1i.rcgu.o
+│  ├──mini_file_explorer.72v945r35owslntm0u4cptxxb.113zryc.rcgu.o
+│  ├──mini_file_explorer.72v945r35owslntm0u4cptxxb.1n4t0pt.rcgu.o
+│  ├──mini_file_explorer.c6hzh9us5ut89uhs2tpgesqdn.01o479k.rcgu.o
+│  ├──mini_file_explorer.c6hzh9us5ut89uhs2tpgesqdn.0ccus1i.rcgu.o
+│  ├──mini_file_explorer.c6hzh9us5ut89uhs2tpgesqdn.113zryc.rcgu.o
+│  ├──mini_file_explorer.c6hzh9us5ut89uhs2tpgesqdn.1n4t0pt.rcgu.o
+│  ├──mini_file_explorer.d
+│  ├──mini_file_explorer.exe
+│  └──mini_file_explorer.pdb
+├──examples
+├──incremental
+│  ├──mini_file_explorer-10ftvjg07ydb4
+│  │  ├──s-hbp0c1ljxy-0t9z6lk-5k8dsdfyqr1i1x1txtcpq1okb
+│  │  │  ├──dep-graph.bin
+│  │  │  ├──query-cache.bin
+│  │  │  └──work-products.bin
+│  │  └──s-hbp0c1ljxy-0t9z6lk.lock
+│  ├──mini_file_explorer-139vzllboje59
+│  │  ├──s-hbp0c1quez-0vfhmag-dwnr1po1aplnvtwsg7jso4vkd
+│  │  │  ├──0yjv3ko2285g0tgr378dtlxb9.o
+│  │  │  ├──1b4k5pah0ae9y3p658akqc6fj.o
+│  │  │  ├──1tqehkrpsp9knozcqfccocufy.o
+│  │  │  ├──25z5ie243ceo3y3sf24jv0h7v.o
+│  │  │  ├──298bpuvzr6e0izxgebo31mhhs.o
+│  │  │  ├──2j2yyqagvmvjiuzlu2dl53uxa.o
+│  │  │  ├──2x7cnjbm8s8flgud7wqekl55q.o
+│  │  │  ├──33sosnxssyjwlyofryp8jauvf.o
+│  │  │  ├──3gtxqmv1573uc02vzo1t2yqy8.o
+│  │  │  ├──3l66hfplp1bciwxgnn88yispf.o
+│  │  │  ├──3nfg193ebrp11bysfy7tfl0ql.o
+│  │  │  ├──3z8q0nvjzdybqi3sc2wc216aw.o
+│  │  │  ├──42i7kz61x5cnhrgtoh37mtnib.o
+│  │  │  ├──4dv736gamz93rdax77grykki8.o
+│  │  │  ├──4g069jujq4mfkv6basvhlx2h2.o
+│  │  │  ├──4ns2g5giymyv9nogcggntiuls.o
+│  │  │  ├──4yjlq7zkzn5vp8jlhnh6f7qdj.o
+│  │  │  ├──4z0iwguqb63h6idvudvo0w1cl.o
+│  │  │  ├──5w3g0mrq7y264kz6y5ucgsc3k.o
+│  │  │  ├──646no10fxtok6e7p12kn8gxwc.o
+│  │  │  ├──64fe5ntdr9v1vgyff46mks3a4.o
+│  │  │  ├──64z7hsjwakngmtx6vnl0gt53h.o
+│  │  │  ├──6exw7ue6al8enro7jkfpvy6tf.o
+│  │  │  ├──6jnoq8826rz7r1i45b6fu1ykg.o
+│  │  │  ├──72v945r35owslntm0u4cptxxb.o
+│  │  │  ├──733fv8d6pjnyj49vz7p8xiaif.o
+│  │  │  ├──74raftfa9r0gaq5cwnixqq1ad.o
+│  │  │  ├──7fctbst748jxw8st9g2aa062e.o
+│  │  │  ├──7hvippcmuc5qi3tl2t7uulp8m.o
+│  │  │  ├──7toe7gs91zz4zzlgvkluqubkg.o
+│  │  │  ├──7xbuq8qmktbrqlw9vxobi1zll.o
+│  │  │  ├──87ugr0ofqp9o1wdlvncmlgg6v.o
+│  │  │  ├──8aaq81a9lfv3vma2aa20588l3.o
+│  │  │  ├──8m4swypl1rkfg45nojktn2p3d.o
+│  │  │  ├──8pxc6wbfh6vbr55fcklc0gm13.o
+│  │  │  ├──ao19t9vytze007s6ouvre4jk9.o
+│  │  │  ├──asljsfixibojc7nijl74cnsyo.o
+│  │  │  ├──b7z492nllep4jbdrcfuz684zo.o
+│  │  │  ├──c3vwvuuagcgo4ryhbnmcgxjoh.o
+│  │  │  ├──c4uawm4eb6g1s90f1ixequlqp.o
+│  │  │  ├──c6hzh9us5ut89uhs2tpgesqdn.o
+│  │  │  ├──ccy7pxgay7f34hcmsoqum6djd.o
+│  │  │  ├──d9c0s05dxhqzorekcf23blloo.o
+│  │  │  ├──dadqehtxtllli2ybum5980ff4.o
+│  │  │  ├──dep-graph.bin
+│  │  │  ├──du2zsnd6nbrgaonrirdlmh3rt.o
+│  │  │  ├──dvka4bbjnjn9vkfbpn8lo08cp.o
+│  │  │  ├──enzcnj4gbjkx075wl0m7yjwy8.o
+│  │  │  ├──f36qic2inpt9cz35b08lf2e2l.o
+│  │  │  ├──f3bytbenmho9us2v32ejzjgrp.o
+│  │  │  ├──f4cz0ws8yrxnixryxjtfdsi6z.o
+│  │  │  ├──query-cache.bin
+│  │  │  └──work-products.bin
+│  │  └──s-hbp0c1quez-0vfhmag.lock
+│  └──mini_file_explorer-1lybtybscy039
+│     ├──s-hbp0c1m3ma-1ci2d86-9c8rle7ydwtuhlcs18y54zh24
+│     │  ├──dep-graph.bin
+│     │  ├──query-cache.bin
+│     │  └──work-products.bin
+│     └──s-hbp0c1m3ma-1ci2d86.lock
+├──mini-file-explorer.d
+├──mini-file-explorer.exe
+└──mini_file_explorer.pdb
+-------------------
+
+path: root/target
+
+target
+├──.rustc_info.json
+├──CACHEDIR.TAG
+└──debug
+   ├──.cargo-lock
+   ├──.fingerprint
+   │  ├──mini-file-explorer-1d93afc275e35461
+   │  │  ├──dep-test-bin-mini-file-explorer
+   │  │  ├──invoked.timestamp
+   │  │  ├──test-bin-mini-file-explorer
+   │  │  └──test-bin-mini-file-explorer.json
+   │  ├──mini-file-explorer-1e367a1035e90ef7
+   │  │  ├──bin-mini-file-explorer
+   │  │  ├──bin-mini-file-explorer.json
+   │  │  ├──dep-bin-mini-file-explorer
+   │  │  └──invoked.timestamp
+   │  └──mini-file-explorer-75d7458c1fb3d4e6
+   │     ├──bin-mini-file-explorer
+   │     ├──bin-mini-file-explorer.json
+   │     ├──dep-bin-mini-file-explorer
+   │     └──invoked.timestamp
+   ├──build
+   ├──deps
+   │  ├──libmini_file_explorer-1d93afc275e35461.rmeta
+   │  ├──libmini_file_explorer-75d7458c1fb3d4e6.rmeta
+   │  ├──mini_file_explorer-1d93afc275e35461.d
+   │  ├──mini_file_explorer-75d7458c1fb3d4e6.d
+   │  ├──mini_file_explorer.2j2yyqagvmvjiuzlu2dl53uxa.01o479k.rcgu.o
+   │  ├──mini_file_explorer.2j2yyqagvmvjiuzlu2dl53uxa.0ccus1i.rcgu.o
+   │  ├──mini_file_explorer.2j2yyqagvmvjiuzlu2dl53uxa.113zryc.rcgu.o
+   │  ├──mini_file_explorer.2j2yyqagvmvjiuzlu2dl53uxa.1n4t0pt.rcgu.o
+   │  ├──mini_file_explorer.4z0iwguqb63h6idvudvo0w1cl.01o479k.rcgu.o
+   │  ├──mini_file_explorer.4z0iwguqb63h6idvudvo0w1cl.0ccus1i.rcgu.o
+   │  ├──mini_file_explorer.4z0iwguqb63h6idvudvo0w1cl.113zryc.rcgu.o
+   │  ├──mini_file_explorer.4z0iwguqb63h6idvudvo0w1cl.1n4t0pt.rcgu.o
+   │  ├──mini_file_explorer.5p4el2bbd08dq920er7lqd3nc.01o479k.rcgu.o
+   │  ├──mini_file_explorer.5p4el2bbd08dq920er7lqd3nc.0ccus1i.rcgu.o
+   │  ├──mini_file_explorer.5p4el2bbd08dq920er7lqd3nc.113zryc.rcgu.o
+   │  ├──mini_file_explorer.5p4el2bbd08dq920er7lqd3nc.1n4t0pt.rcgu.o
+   │  ├──mini_file_explorer.5w3g0mrq7y264kz6y5ucgsc3k.01o479k.rcgu.o
+   │  ├──mini_file_explorer.5w3g0mrq7y264kz6y5ucgsc3k.0ccus1i.rcgu.o
+   │  ├──mini_file_explorer.5w3g0mrq7y264kz6y5ucgsc3k.113zryc.rcgu.o
+   │  ├──mini_file_explorer.5w3g0mrq7y264kz6y5ucgsc3k.1n4t0pt.rcgu.o
+   │  ├──mini_file_explorer.64fe5ntdr9v1vgyff46mks3a4.01o479k.rcgu.o
+   │  ├──mini_file_explorer.64fe5ntdr9v1vgyff46mks3a4.0ccus1i.rcgu.o
+   │  ├──mini_file_explorer.64fe5ntdr9v1vgyff46mks3a4.113zryc.rcgu.o
+   │  ├──mini_file_explorer.64fe5ntdr9v1vgyff46mks3a4.1n4t0pt.rcgu.o
+   │  ├──mini_file_explorer.72v945r35owslntm0u4cptxxb.01o479k.rcgu.o
+   │  ├──mini_file_explorer.72v945r35owslntm0u4cptxxb.0ccus1i.rcgu.o
+   │  ├──mini_file_explorer.72v945r35owslntm0u4cptxxb.113zryc.rcgu.o
+   │  ├──mini_file_explorer.72v945r35owslntm0u4cptxxb.1n4t0pt.rcgu.o
+   │  ├──mini_file_explorer.c6hzh9us5ut89uhs2tpgesqdn.01o479k.rcgu.o
+   │  ├──mini_file_explorer.c6hzh9us5ut89uhs2tpgesqdn.0ccus1i.rcgu.o
+   │  ├──mini_file_explorer.c6hzh9us5ut89uhs2tpgesqdn.113zryc.rcgu.o
+   │  ├──mini_file_explorer.c6hzh9us5ut89uhs2tpgesqdn.1n4t0pt.rcgu.o
+   │  ├──mini_file_explorer.d
+   │  ├──mini_file_explorer.exe
+   │  └──mini_file_explorer.pdb
+   ├──examples
+   ├──incremental
+   │  ├──mini_file_explorer-10ftvjg07ydb4
+   │  │  ├──s-hbp0c1ljxy-0t9z6lk-5k8dsdfyqr1i1x1txtcpq1okb
+   │  │  │  ├──dep-graph.bin
+   │  │  │  ├──query-cache.bin
+   │  │  │  └──work-products.bin
+   │  │  └──s-hbp0c1ljxy-0t9z6lk.lock
+   │  ├──mini_file_explorer-139vzllboje59
+   │  │  ├──s-hbp0c1quez-0vfhmag-dwnr1po1aplnvtwsg7jso4vkd
+   │  │  │  ├──0yjv3ko2285g0tgr378dtlxb9.o
+   │  │  │  ├──1b4k5pah0ae9y3p658akqc6fj.o
+   │  │  │  ├──1tqehkrpsp9knozcqfccocufy.o
+   │  │  │  ├──25z5ie243ceo3y3sf24jv0h7v.o
+   │  │  │  ├──298bpuvzr6e0izxgebo31mhhs.o
+   │  │  │  ├──2j2yyqagvmvjiuzlu2dl53uxa.o
+   │  │  │  ├──2x7cnjbm8s8flgud7wqekl55q.o
+   │  │  │  ├──33sosnxssyjwlyofryp8jauvf.o
+   │  │  │  ├──3gtxqmv1573uc02vzo1t2yqy8.o
+   │  │  │  ├──3l66hfplp1bciwxgnn88yispf.o
+   │  │  │  ├──3nfg193ebrp11bysfy7tfl0ql.o
+   │  │  │  ├──3z8q0nvjzdybqi3sc2wc216aw.o
+   │  │  │  ├──42i7kz61x5cnhrgtoh37mtnib.o
+   │  │  │  ├──4dv736gamz93rdax77grykki8.o
+   │  │  │  ├──4g069jujq4mfkv6basvhlx2h2.o
+   │  │  │  ├──4ns2g5giymyv9nogcggntiuls.o
+   │  │  │  ├──4yjlq7zkzn5vp8jlhnh6f7qdj.o
+   │  │  │  ├──4z0iwguqb63h6idvudvo0w1cl.o
+   │  │  │  ├──5w3g0mrq7y264kz6y5ucgsc3k.o
+   │  │  │  ├──646no10fxtok6e7p12kn8gxwc.o
+   │  │  │  ├──64fe5ntdr9v1vgyff46mks3a4.o
+   │  │  │  ├──64z7hsjwakngmtx6vnl0gt53h.o
+   │  │  │  ├──6exw7ue6al8enro7jkfpvy6tf.o
+   │  │  │  ├──6jnoq8826rz7r1i45b6fu1ykg.o
+   │  │  │  ├──72v945r35owslntm0u4cptxxb.o
+   │  │  │  ├──733fv8d6pjnyj49vz7p8xiaif.o
+   │  │  │  ├──74raftfa9r0gaq5cwnixqq1ad.o
+   │  │  │  ├──7fctbst748jxw8st9g2aa062e.o
+   │  │  │  ├──7hvippcmuc5qi3tl2t7uulp8m.o
+   │  │  │  ├──7toe7gs91zz4zzlgvkluqubkg.o
+   │  │  │  ├──7xbuq8qmktbrqlw9vxobi1zll.o
+   │  │  │  ├──87ugr0ofqp9o1wdlvncmlgg6v.o
+   │  │  │  ├──8aaq81a9lfv3vma2aa20588l3.o
+   │  │  │  ├──8m4swypl1rkfg45nojktn2p3d.o
+   │  │  │  ├──8pxc6wbfh6vbr55fcklc0gm13.o
+   │  │  │  ├──ao19t9vytze007s6ouvre4jk9.o
+   │  │  │  ├──asljsfixibojc7nijl74cnsyo.o
+   │  │  │  ├──b7z492nllep4jbdrcfuz684zo.o
+   │  │  │  ├──c3vwvuuagcgo4ryhbnmcgxjoh.o
+   │  │  │  ├──c4uawm4eb6g1s90f1ixequlqp.o
+   │  │  │  ├──c6hzh9us5ut89uhs2tpgesqdn.o
+   │  │  │  ├──ccy7pxgay7f34hcmsoqum6djd.o
+   │  │  │  ├──d9c0s05dxhqzorekcf23blloo.o
+   │  │  │  ├──dadqehtxtllli2ybum5980ff4.o
+   │  │  │  ├──dep-graph.bin
+   │  │  │  ├──du2zsnd6nbrgaonrirdlmh3rt.o
+   │  │  │  ├──dvka4bbjnjn9vkfbpn8lo08cp.o
+   │  │  │  ├──enzcnj4gbjkx075wl0m7yjwy8.o
+   │  │  │  ├──f36qic2inpt9cz35b08lf2e2l.o
+   │  │  │  ├──f3bytbenmho9us2v32ejzjgrp.o
+   │  │  │  ├──f4cz0ws8yrxnixryxjtfdsi6z.o
+   │  │  │  ├──query-cache.bin
+   │  │  │  └──work-products.bin
+   │  │  └──s-hbp0c1quez-0vfhmag.lock
+   │  └──mini_file_explorer-1lybtybscy039
+   │     ├──s-hbp0c1m3ma-1ci2d86-9c8rle7ydwtuhlcs18y54zh24
+   │     │  ├──dep-graph.bin
+   │     │  ├──query-cache.bin
+   │     │  └──work-products.bin
+   │     └──s-hbp0c1m3ma-1ci2d86.lock
+   ├──mini-file-explorer.d
+   ├──mini-file-explorer.exe
+   └──mini_file_explorer.pdb
