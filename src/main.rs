@@ -14,21 +14,27 @@ fn main() -> Result<(), io::Error>{
         Arc::new(AtomicUsize::new(4))
     )?;
 
-    root.summarize();
+    root.summarize(Some(1));
     let mut previous_folder = root.clone();
 
     loop {
         println!();
         let mut new_path = String::new();
         io::stdin().read_line(&mut new_path).expect("error reading input");
-        match previous_folder.navigate(new_path.trim()) {
+        let (new_path, depth) = match new_path.split_once(',') {
+            Some((p, d)) => {
+                (p.trim(), d.trim().parse().ok())
+            },
+            None => (new_path.trim(), None)
+        };
+        match previous_folder.navigate(new_path) {
             Ok(new_folder) => {
-                new_folder.summarize();
+                new_folder.summarize(depth);
                 previous_folder = new_folder;
             },
             Err(err) => {
                 eprintln!("error: {}", err);
-                previous_folder.summarize();
+                previous_folder.summarize(depth);
             }
         }
     }

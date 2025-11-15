@@ -85,12 +85,18 @@ impl Folder {
         }
     }
 
-    pub fn print_tree(&self) {
-        self.print_tree_rec("", "")
+    pub fn print_tree(&self, depth: Option<usize>) {
+        self.print_tree_rec("", "", depth);
     }
 
-    fn print_tree_rec(&self, prefix: &str, space_holder: &str) {
+    fn print_tree_rec(&self, prefix: &str, space_holder: &str, depth: Option<usize>) {
         println!("{}{}", prefix, self.name);
+        let new_depth = if let Some(d) = depth {
+            if d == 0 {return;} else {Some(d - 1)}
+        } else {
+            None
+        };
+
         let children = self.children.lock().unwrap();
         for (idx, folder) in children.iter().enumerate() {
             let last = idx + 1 == children.len();
@@ -98,7 +104,8 @@ impl Folder {
             let new_spaceholder = if last {"   "} else {"│  "};
             folder.print_tree_rec(
                 format!("{}{}", space_holder, new_prefix).as_str(),
-                format!("{}{}", space_holder, new_spaceholder).as_str()
+                format!("{}{}", space_holder, new_spaceholder).as_str(),
+                new_depth
             );
         }
     }
@@ -146,9 +153,9 @@ impl Folder {
         }
     }
 
-    pub fn summarize(&self) {
+    pub fn summarize(&self, depth: Option<usize>) {
         println!("{}", self.get_path_rec());
         println!();
-        self.print_tree();
+        self.print_tree(depth);
     }
 }
